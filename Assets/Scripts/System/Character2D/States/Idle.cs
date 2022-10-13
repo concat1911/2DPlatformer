@@ -4,6 +4,11 @@ namespace VD.Character2D
 
     public class Idle : CharacterState
     {
+        public override void Initialize(CharacterManager _controller)
+        {
+            base.Initialize(_controller);
 
+            stateName = CharaState.Idle;
+        }
     }
 }
