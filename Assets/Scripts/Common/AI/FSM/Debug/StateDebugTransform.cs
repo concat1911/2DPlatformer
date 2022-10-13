@@ -2,7 +2,7 @@
 using UnityEngine;
 using TMPro;
 
-namespace ML.FSM.Debug
+namespace VD.FSM.Debug
 {
     public class StateDebugTransform : MonoBehaviour
     {

@@ -1,4 +1,4 @@
-﻿namespace ML.FSM.Debug
+﻿namespace VD.FSM.Debug
 {
     public interface IStateGetter
     {
