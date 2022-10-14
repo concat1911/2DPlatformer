@@ -15,6 +15,11 @@ namespace VD.Character2D
 
             CharacterState[] states = GetComponentsInChildren<CharacterState>();
 
+            for( int i = 0; i < states.Length; i++ )
+            {
+                states[i].Initialize(this);
+            }
+
             stateController = new StateController(states);
         }
 

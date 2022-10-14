@@ -10,7 +10,5 @@ namespace VD.Character2D
 
             stateName = CharaState.Move;
         }
-
-
     }
 }

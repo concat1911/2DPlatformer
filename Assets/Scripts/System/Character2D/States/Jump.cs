@@ -1,18 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class Jump : MonoBehaviour
+namespace VD.Character2D
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    using UnityEngine;
 
-    // Update is called once per frame
-    void Update()
+    public class Jump : CharacterState
     {
-        
+        public override void Initialize(CharacterManager _controller)
+        {
+            base.Initialize(_controller);
+
+            stateName = CharaState.Jump;
+        }
+
+
     }
 }
